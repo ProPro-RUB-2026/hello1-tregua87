@@ -5,10 +5,10 @@
 int main(int argc, char** argv) {
 
     char *s = (char*)malloc(15);
-    if (s == NULL) {
-        printf("Malloc fails\n");
-        return 1;
-    }
+    // if (s == NULL) {
+    //     printf("Malloc fails\n");
+    //     return 1;
+    // }
 
     memset(s, 0, 15);
     strncpy(s, "Hello World!", 12);
